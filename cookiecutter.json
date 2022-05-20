@@ -1,0 +1,7 @@
+{
+    "project_name": "project_name",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "python_version": "3.8",
+    "package_name": "my_package",
+    "description": "Mattia's Python cookie cutter"
+}

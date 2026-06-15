@@ -1,0 +1,7 @@
+services:
+  {{cookiecutter.project_name}}:
+    network_mode: host
+    build:
+      network: host
+    # restart: unless-stopped
+    # env_file: .env

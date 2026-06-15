@@ -1,8 +1,12 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.replace(' ', '_') }}",
-    "python_version": "3.8",
+    "repo_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
+    "python_version": "3.14",
+    "current_year": "2026",
     "package_name": "my_project_package",
+    "github_repo_owner": "MattiaRacca",
     "conda_env_name": "{{ cookiecutter.package_name }}",
+    "author_name": "Mattia Racca",
+    "author_email": "mattia.rh@gmail.com",
     "description": "A new exciting Python project."
 }

@@ -44,7 +44,6 @@ def prepare_conda():
             ]
         )
         run(["conda", "env", "list"])
-        run(["conda", "activate", CONDA_ENV])
     else:
         print("Skipped conda env creation.")
 

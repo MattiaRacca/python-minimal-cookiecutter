@@ -1,5 +1,5 @@
 services:
-  {{cookiecutter.project_name}}:
+  {{cookiecutter.project_name.lower()}}:
     network_mode: host
     build:
       network: host
